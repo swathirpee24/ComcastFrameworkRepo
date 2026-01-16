@@ -12,6 +12,15 @@ public class HomePage {
 		this.driver=driver;
 		PageFactory.initElements(driver, this);
 		}
+	@FindBy(linkText="Opportunities")
+	private WebElement oprtink;
+	
+	public WebDriver getDriver() {
+		return driver;
+	}
+	public WebElement getOprtink() {
+		return oprtink;
+	}
 	@FindBy(linkText="Organizations")
 	private WebElement orglink;
 	@FindBy(linkText="Contacts")
