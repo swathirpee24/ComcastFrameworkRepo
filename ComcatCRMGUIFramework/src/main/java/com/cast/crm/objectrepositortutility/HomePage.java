@@ -13,13 +13,13 @@ public class HomePage {
 		PageFactory.initElements(driver, this);
 		}
 	@FindBy(linkText="Opportunities")
-	private WebElement oprtink;
+	private WebElement opporunitilink;
 	
 	public WebDriver getDriver() {
 		return driver;
 	}
 	public WebElement getOprtink() {
-		return oprtink;
+		return opporunitilink;
 	}
 	@FindBy(linkText="Organizations")
 	private WebElement orglink;
